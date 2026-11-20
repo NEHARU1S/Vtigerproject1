@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parellel="tests">
+  <test thread-count="2" name="Test1">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+     
+      <class name="com.CRM.Vtiger.orgisationtests.modification"/>
+      <class name="com.CRM.Vtiger.orgisationtests.orgisatation"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="2" name="Test2">
+  <parameter name="browser" value="firefox"></parameter>
+  
+   <classes>
+      <class name="com.CRM.Vtiger.orgisationtests.update"/>
+      <class name="com.CRM.Vtiger.orgisationtests.delete"/>
+   </classes>
+   </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.CRM.Vtiger.orgisationtests.delete">
+        <methods>
+          <include name="closerbrowser"/>
+          <include name="logintovtiger"/>
+          <include name="clickorg"/>
+          <include name="disconnectfromdatabase"/>
+          <include name="clickorg1"/>
+          <include name="logoutfromvtiger"/>
+          <include name="launchbrower"/>
+          <include name="connectodatabase"/>
+        </methods>
+      </class> <!-- com.CRM.Vtiger.orgisationtests.delete -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
